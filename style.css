@@ -1,0 +1,43 @@
+BODY {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.testimonial-container {
+  width: 500px;
+  height: 150px;
+  background-color: slateblue;
+  border-radius: 10px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+  min-width: 400px;
+  padding: 40px 20px;
+  margin: 5px;
+  color: white;
+  position: relative;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 200;
+}
